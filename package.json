@@ -1,0 +1,26 @@
+{
+  "name": "transaction-reconciliation-system",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Financial Transaction Reconciliation & Operations Reporting Platform",
+  "scripts": {
+    "start:backend": "cd backend && bun start",
+    "dev:backend": "cd backend && bun dev",
+    "start:frontend": "cd frontend && bun run dev",
+    "seed": "cd backend && bun run seed",
+    "test": "cd backend && bun test",
+    "build:frontend": "cd frontend && bun run build"
+  },
+  "keywords": [
+    "reconciliation",
+    "finance",
+    "transactions",
+    "settlements",
+    "finops",
+    "express",
+    "react",
+    "sqlite"
+  ],
+  "author": "",
+  "license": "ISC"
+}
